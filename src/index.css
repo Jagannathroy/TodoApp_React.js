@@ -1,0 +1,121 @@
+body {
+  background-color: hsla(0, 0%, 10%);
+}
+
+.to-do-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  white-space: nowrap;
+
+}
+
+.add-button {
+  background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover {
+  background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button {
+  background-color: hsl(10, 90%, 50%);
+}
+
+.delete-button:hover {
+  background-color: hsl(10, 90%, 40%);
+}
+
+.moveUp-button {
+  background-color: hsl(207, 90%, 64%);
+}
+
+.moveDown-button {
+  background-color: hsl(207, 90%, 64%);
+}
+
+.moveUp-button:hover {
+  background-color: hsl(207, 90%, 50%);
+}
+
+.moveDown-button:hover {
+  background-color: hsl(207, 90%, 50%);
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  font-size: 1.5rem;
+  padding: 8px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.7);
+  flex: 1;
+  max-width: 400px;
+  min-width: 150px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+ol {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  max-width: 600px;
+}
+
+li {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsla(0, 0%, 97%);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 2px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.task {
+  flex: 1;
+  text-align: left;
+  margin-right: 10px;
+  min-width: 10;
+
+
+}
+
+.delete-button,
+.moveDown-button,
+.moveUp-button {
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  margin-left: 5px;
+  margin-top: 0;
+  flex: none;
+}
