@@ -24,7 +24,6 @@ button {
   cursor: pointer;
   transition: background-color 0.5s ease;
   white-space: nowrap;
-
 }
 
 .add-button {
@@ -90,15 +89,18 @@ li {
   font-size: 1.6rem;
   font-weight: bold;
   padding: 15px;
-  background-color: hsla(0, 0%, 97%);
+  background-color: transparent;
+  /* Remove white background */
   margin-top: 30px;
   margin-bottom: 10px;
-  border: 2px solid hsla(0, 0%, 85%, 0.75);
+
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  color: white;
+  /* Change text color to white */
 }
 
 .task {
@@ -106,8 +108,9 @@ li {
   text-align: left;
   margin-right: 10px;
   min-width: 10;
-
-
+  color: white;
+  border: none;
+  /* Ensure task text is white */
 }
 
 .delete-button,
